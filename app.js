@@ -10,7 +10,8 @@ new Vue({
     userClass: '',
     otherUserClass: '',
     isDisplayed: true,
-    backgroundColor: ''
+    backgroundColor: '',
+    barLength: 0
   },
 
   methods: {
@@ -21,6 +22,13 @@ new Vue({
         vm.altClasses.highlight = !vm.altClasses.highlight;
         vm.altClasses.shrink = !vm.altClasses.shrink;
       }, 1000);
+    },
+
+    startProgress: function() {
+      var vm = this;
+      setInterval(function() {
+        vm.barLength += 10;
+      }, 1500);
     }
   }
 });
