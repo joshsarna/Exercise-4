@@ -6,7 +6,8 @@ new Vue({
     altClasses: {
       highlight: true,
       shrink: false
-    }
+    },
+    userClass: ''
   },
 
   methods: {
