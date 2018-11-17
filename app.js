@@ -9,7 +9,8 @@ new Vue({
     },
     userClass: '',
     otherUserClass: '',
-    isDisplayed: true
+    isDisplayed: true,
+    backgroundColor: ''
   },
 
   methods: {
