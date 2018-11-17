@@ -18,6 +18,14 @@
   color: red;
 }
 
+.green-text {
+  color: green;
+}
+
 .bold {
   font-weight: bold;
+}
+
+.hidden {
+  display: none;
 }

@@ -7,7 +7,9 @@ new Vue({
       highlight: true,
       shrink: false
     },
-    userClass: ''
+    userClass: '',
+    otherUserClass: '',
+    isDisplayed: true
   },
 
   methods: {
