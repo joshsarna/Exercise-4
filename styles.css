@@ -13,3 +13,11 @@
   background-color: gray;
   width: 50px !important;
 }
+
+.red-text {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
